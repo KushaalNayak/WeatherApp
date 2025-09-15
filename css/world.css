@@ -185,6 +185,21 @@ nav ul li a {
 .weather-icon img {
   width: 100%;
 }
+footer.copyright {
+  text-align: center;
+  padding: 10px 0;
+  background-color: var(--font-color-main);  
+  color: var(--white-color);                  
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+footer.copyright .author,
+footer.copyright a {
+  color: #e69bfd;
+  font-variant: small-caps;
+}
+
 @media screen and (min-width: 430px) {
   #screen {
     max-width: 50%;
